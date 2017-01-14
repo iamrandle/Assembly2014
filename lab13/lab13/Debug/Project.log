@@ -1,0 +1,20 @@
+﻿Build started 5/4/2014 4:32:53 PM.
+     1>Project "C:\Users\Tyler\Documents\Visual Studio 2012\Projects\lab13\lab13\Project.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling main.asm...
+         cmd.exe /C "C:\Users\Tyler\AppData\Local\Temp\tmpb85b4f4bc56840e3887366ae3b95798c.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /Fl"Project.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /Tamain.asm
+       _MASM:
+         Assembling replaceChar.asm...
+         cmd.exe /C "C:\Users\Tyler\AppData\Local\Temp\tmp3896298276dd4a75911d494bc833f2b3.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\replaceChar.obj" /Fl"Project.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /TareplaceChar.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tyler\Documents\Visual Studio 2012\Projects\lab13\lab13\Debug\Project.exe" /NOLOGO /LIBPATH:c:\Irvine user32.lib irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tyler\Documents\Visual Studio 2012\Projects\lab13\lab13\Debug\Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Tyler\Documents\Visual Studio 2012\Projects\lab13\lab13\Debug\Project.lib" /MACHINE:X86 /SAFESEH:NO Debug\main.obj
+         Debug\printText.obj
+         Debug\replaceChar.obj
+         Project.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2012\Projects\lab13\lab13\Debug\Project.exe
+     1>Done Building Project "C:\Users\Tyler\Documents\Visual Studio 2012\Projects\lab13\lab13\Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37
